@@ -1,0 +1,5 @@
+The isPalindrome function checks if an integer x is a palindrome. First, it handles negative numbers by returning false, as negative numbers cannot be palindromes.
+
+It then converts the integer to a sequence of digits stored in the str array. The conversion is done by repeatedly taking the last digit of x (x % 10) and storing it in str, then removing the last digit from x (x /= 10). The len variable keeps track of the number of digits.
+
+After storing the digits, the function compares the digits from the start and end towards the middle. If any pair of digits doesn't match, it returns false. If all pairs match, it returns true, indicating the number is a palindrome.
