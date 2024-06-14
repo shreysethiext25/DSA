@@ -1,0 +1,3 @@
+The findMedianSortedArrays function merges two sorted arrays, nums1 and nums2, and finds the median of the combined sorted array. It first calculates the total size (nums3Size) and allocates memory for a new array (nums3). If either input array is empty, it copies the non-empty array into nums3. Otherwise, it merges the two arrays into nums3 by comparing elements from both arrays sequentially.
+
+Once merged, if nums3 has only one element, it returns that element as the median. If nums3 has an even number of elements, it calculates the median as the average of the two middle elements. If nums3 has an odd number of elements, it returns the middle element as the median. The function handles edge cases and returns the appropriate median value.
