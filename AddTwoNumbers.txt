@@ -1,0 +1,10 @@
+This code adds two numbers represented by two linked lists, where each node contains a single digit. The Insert function appends a new node with a given value to the end of a linked list. If the list is empty, it creates the first node.
+The addTwoNumbers function sums two linked lists digit by digit, considering any carry from the previous addition. It initializes an empty list sums to store the result, and pointers p1 and p2 to traverse the input lists l1 and l2.
+In a while loop, it sums corresponding digits from both lists and the carry. If a pointer has reached the end of its list, it skips that addition. The carry for the next digit is calculated as the integer division of the sum by 10, and the current digit is the remainder when the sum is divided by 10.
+The Insert function is called to append the current digit to the sums list. Finally, the sums list, representing the sum of the two input numbers, is returned.
+
+
+
+
+
+
